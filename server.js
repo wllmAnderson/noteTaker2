@@ -5,7 +5,7 @@ const apiRoutes = require('./routes/api')
 
 const app = express();
 const host = '0.0.0.0';
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 //
 // Set up body parsing, static, and route middleware
