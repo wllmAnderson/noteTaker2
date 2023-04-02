@@ -18,7 +18,7 @@ app.use('/api', apiRoutes);
 
 // TODO: Create a route for a GET request that will return the content of our `terms.json` file
 
-app.listen(PORT, host () =>
+app.listen(PORT, host, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
 );
 
